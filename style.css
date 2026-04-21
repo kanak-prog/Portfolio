@@ -252,7 +252,7 @@ nav .container {
 /* Projects */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
 
@@ -276,6 +276,17 @@ nav .container {
     text-transform: uppercase;
     color: var(--text-secondary);
     letter-spacing: 1px;
+}
+
+.project-points {
+    margin-top: 1.25rem;
+    padding-left: 1.2rem;
+    color: var(--text-secondary);
+}
+
+.project-points li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
 }
 
 /* Achievements */
